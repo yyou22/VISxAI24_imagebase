@@ -19,7 +19,7 @@ for index, row in df.iterrows():
 
     # Check if vis column is 1
     if vis == 1:
-        source_folder = os.path.join('img_data', str(ogi_int))
+        source_folder = os.path.join('003', str(ogi_int))
         destination_folder = os.path.join('img_data_', str(ogi_int))
 
         # Copy the folder if it exists
